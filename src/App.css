@@ -1,38 +1,79 @@
-.App {
+
+header {
+  background-color:#333333;
+  color: white;
+  height: 100px;
   text-align: center;
+  align-items: center;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 100px 20px 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.offer1, .offer6{
+  height: 300px;
+  width: 300px;
+  border: solid red 10px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+} 
+
+.offer2, .offer7 {
+  height: 300px;
+  width: 300px;
+  border: solid green 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+} 
+
+.offer3, .offer8 {
+  height: 300px;
+  width: 300px;
+  border: solid yellow 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+} 
+
+.offer4, .offer9 {
+  height: 300px;
+  width: 300px;
+  border: solid lightseagreen 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+} 
+
+.offer5{
+  height: 300px;
+  width: 300px;
+  border: solid lightcoral 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+} 
+
+footer {
+  background-color: lightgray;
+  height: 40px;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding-top: 10px;
 }
